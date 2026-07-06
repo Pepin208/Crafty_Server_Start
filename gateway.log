@@ -1,0 +1,42 @@
+[18:23:39] Gateway escuchando en 0.0.0.0:56768 (backend real en 127.0.0.1:25565)
+[18:24:53] Conexión de ('192.168.0.22', 51508). next_state=1.
+[18:25:03] Intento de login detectado. Disparando wake si hace falta.
+[18:25:03] Levantando Crafty Controller...
+[18:25:05] Crafty está up.
+[18:25:05] Start MC solicitado -> 200
+[18:25:05] Esperando a que el server de Minecraft responda...
+[18:25:14] Server de Minecraft arriba. A partir de ahora, proxy transparente.
+[18:25:44] Jugadores online: 0. Inactivo hace 30s / 150s.
+[18:26:14] Jugadores online: 0. Inactivo hace 60s / 150s.
+[18:26:44] Jugadores online: 0. Inactivo hace 90s / 150s.
+[18:27:14] Jugadores online: 0. Inactivo hace 120s / 150s.
+[18:27:44] Jugadores online: 0. Inactivo hace 150s / 150s.
+[18:27:44] 10 min sin jugadores. Apagando server de Minecraft.
+[18:27:44] Stop MC solicitado -> 200
+[18:27:44] Esperando 300s más por si alguien reconecta antes de apagar Crafty...
+[18:32:44] Apagando Crafty (pid 6166)...
+[18:32:44] Ciclo completo. Volviendo a esperar conexiones.
+[18:33:05] Ctrl+C detectado. Cerrando prolijamente...
+[18:33:05] Todo ok. Cerrando.
+[18:37:00] Gateway escuchando en 0.0.0.0:56768 (backend real en 127.0.0.1:25565)
+[18:40:46] Ctrl+C detectado. Cerrando prolijamente...
+[18:40:46] Todo ok. Cerrando.
+[18:48:52] Gateway escuchando en 0.0.0.0:56768 (backend real en 127.0.0.1:25565)
+[18:49:37] Conexión de ('192.168.0.22', 49062). next_state=1.
+[18:50:00] Ctrl+C detectado. Cerrando prolijamente...
+[18:50:00] Todo ok. Cerrando.
+[18:50:01] Gateway escuchando en 0.0.0.0:56768 (backend real en 127.0.0.1:25565)
+[18:50:07] Conexión de ('192.168.0.22', 35040). next_state=1.
+[18:50:09] Intento de login detectado. Disparando wake si hace falta.
+[18:50:09] Levantando Crafty Controller...
+[18:50:11] Crafty está up.
+[18:50:11] Start MC solicitado -> 200
+[18:50:11] Esperando a que el server de Minecraft responda...
+[18:50:20] Server de Minecraft arriba. A partir de ahora, proxy transparente.
+[18:50:50] Jugadores online: 1.
+[18:51:20] Jugadores online: 1.
+[18:51:22] IP 192.168.0.22: 8 intentos en los últimos 60s (resumen antes de resetear).
+[18:51:22] Conexión de ('192.168.0.22', 33194). -> proxy directo al backend.
+[18:51:50] Jugadores online: 0. Inactivo hace 30s / 150s.
+[18:52:20] Jugadores online: 0. Inactivo hace 60s / 150s.
+[18:52:50] Jugadores online: 0. Inactivo hace 90s / 150s.

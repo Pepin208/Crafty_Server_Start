@@ -1,0 +1,27 @@
+[+] Crafty: 06/07/26 18:50:09 - INFO:	Starting migrations
+[+] Crafty: 06/07/26 18:50:09 - INFO:	There is nothing to migrate
+[+] Crafty: 06/07/26 18:50:09 - INFO:	Checking for reset secret flag
+[+] Crafty: 06/07/26 18:50:09 - INFO:	No flag found. Secrets are staying
+[+] Crafty: 06/07/26 18:50:09 - INFO:	Checking for remote changes to config.json
+[+] Crafty: 06/07/26 18:50:09 - INFO:	Remote change complete.
+[+] Crafty: 06/07/26 18:50:09 - INFO:	Initializing all servers defined
+[+] Crafty: 06/07/26 18:50:09 - INFO:	Starting migrations
+[+] Crafty: 06/07/26 18:50:09 - INFO:	There is nothing to migrate
+[+] Crafty: 06/07/26 18:50:09 - INFO:	https://192.168.0.20:8443 is up and ready for connections.
+[+] Crafty: 06/07/26 18:50:09 - INFO:	Server Init Complete: Listening For Connections!
+[+] Crafty: 06/07/26 18:50:10 - INFO:	Loaded Server: ID a9f17c0f-8870-40b5-af3a-8947e8c759a2 | Name: ServerMC | Autostart: False | Delay: 10
+[+] Crafty: 06/07/26 18:50:10 - INFO:	Setting up Crafty's internal components...
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Stats collection frequency set to 30 seconds
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Launching Scheduler Thread...
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Launching command thread...
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Launching log watcher...
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Launching realtime thread...
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Polling server statistics ServerMC every 5 seconds
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Saving server statistics ServerMC every 30 seconds
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Launching Server ServerMC with command ['java', '-Xms1000M', '-Xmx6000M', '-jar', 'fabric.jar', 'nogui']
+[+] Crafty: 06/07/26 18:50:12 - INFO:	Server ServerMC running with PID 7946
+[+] Crafty: 06/07/26 18:50:13 - INFO:	Server ServerMC has crash detection enabled - starting watcher task
+[+] Crafty: 06/07/26 18:50:14 - INFO:	Checking Internet. This may take a minute.
+[+] Crafty: 06/07/26 18:50:16 - INFO:	Execution Mode: Non-interactive (e.g. 'python main.py')
+[+] Crafty: 06/07/26 18:50:16 - INFO:	Application path: '/home/pepin/Escritorio/MC_Server/crafty-4'
+[+] Crafty: 06/07/26 18:50:17 - INFO:	Crafty has fully started and is now ready for use!
