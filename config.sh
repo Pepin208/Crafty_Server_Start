@@ -42,7 +42,7 @@ export STARTUP_TIMEOUT_SECONDS=30  # cuánto espera a que el server levante ante
 
 # Este es el texto que aparece en la LISTA de servidores mientras
 # el server está apagado y nadie lo despertó todavía.
-export MOTD_DORMIDO="&bEstoy ZZZ pibe... &f&lConectate pa &bdespertarme"
+export MOTD_DORMIDO="Estoy ZZZ pibe... Conectate pa despertarme"
 
 # Este es el texto que aparece en la lista mientras se está iniciando
 # (después de que alguien ya intentó conectarse).
@@ -100,4 +100,4 @@ export CRAFTY_LOG_BACKUP_COUNT=3
 # Nivel de detalle del log de Crafty:
 #   "INFO"    -> loguea todo (arranques, paradas, avisos y errores)
 #   "WARNING" -> solo loguea warnings y errores, descarta los INFO
-export CRAFTY_LOG_LEVEL="WARNING"
+export CRAFTY_LOG_LEVEL="INFO"
