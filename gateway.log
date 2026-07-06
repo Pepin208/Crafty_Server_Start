@@ -40,3 +40,53 @@
 [18:51:50] Jugadores online: 0. Inactivo hace 30s / 150s.
 [18:52:20] Jugadores online: 0. Inactivo hace 60s / 150s.
 [18:52:50] Jugadores online: 0. Inactivo hace 90s / 150s.
+[23:04:38] SIGHUP recibido: config hotswap recargada -> IDLE_LIMIT=999s, CRAFTY_IDLE=300s, CHECK_INTERVAL=20s, CRAFTY_LOG_LEVEL=WARNING
+[23:04:38] Hot-reload requires config.toml. Migrate your configuration to enable this feature (fallback to env-vars does not support hotswap).
+[23:04:38] Crafty ya estaba corriendo.
+[23:04:38] Esperando a que el server de Minecraft responda...
+[23:04:38] Server de Minecraft arriba. A partir de ahora, proxy transparente.
+[23:04:38] Jugadores online: 0. Inactivo hace 1s / 2s.
+[23:04:38] Jugadores online: 0. Inactivo hace 2s / 2s.
+[23:04:38] Server inactivo. Apagando server de Minecraft.
+[23:04:38] Esperando 1s más por si alguien reconecta antes de apagar Crafty...
+[23:04:38] Ciclo completo. Volviendo a esperar conexiones.
+[23:06:41] SIGHUP recibido: config hotswap recargada -> IDLE_LIMIT=999s, CRAFTY_IDLE=300s, CHECK_INTERVAL=20s, CRAFTY_LOG_LEVEL=WARNING
+[23:06:41] Hot-reload requires config.toml. Migrate your configuration to enable this feature (fallback to env-vars does not support hotswap).
+[23:06:41] Crafty ya estaba corriendo.
+[23:06:41] Esperando a que el server de Minecraft responda...
+[23:06:41] Server de Minecraft arriba. A partir de ahora, proxy transparente.
+[23:06:41] Jugadores online: 0. Inactivo hace 1s / 2s.
+[23:06:41] Jugadores online: 0. Inactivo hace 2s / 2s.
+[23:06:41] Server inactivo. Apagando server de Minecraft.
+[23:06:41] Esperando 1s más por si alguien reconecta antes de apagar Crafty...
+[23:06:41] Ciclo completo. Volviendo a esperar conexiones.
+[23:07:07] SIGHUP recibido: config hotswap recargada -> IDLE_LIMIT=999s, CRAFTY_IDLE=300s, CHECK_INTERVAL=20s, CRAFTY_LOG_LEVEL=WARNING
+[23:07:07] Hot-reload requires config.toml. Migrate your configuration to enable this feature (fallback to env-vars does not support hotswap).
+[23:07:07] Crafty ya estaba corriendo.
+[23:07:07] Esperando a que el server de Minecraft responda...
+[23:07:07] Server de Minecraft arriba. A partir de ahora, proxy transparente.
+[23:07:07] Jugadores online: 0. Inactivo hace 1s / 2s.
+[23:07:07] Jugadores online: 0. Inactivo hace 2s / 2s.
+[23:07:07] Server inactivo. Apagando server de Minecraft.
+[23:07:07] Esperando 1s más por si alguien reconecta antes de apagar Crafty...
+[23:07:07] Ciclo completo. Volviendo a esperar conexiones.
+[23:07:45] SIGHUP recibido: config hotswap recargada -> IDLE_LIMIT=999s, CRAFTY_IDLE=300s, CHECK_INTERVAL=20s, CRAFTY_LOG_LEVEL=WARNING
+[23:07:45] Hot-reload requires a TOML config file (config.toml). Migrate your configuration to enable this feature (fallback to env-vars does not support hotswap).
+[23:07:45] Crafty ya estaba corriendo.
+[23:07:45] Esperando a que el server de Minecraft responda...
+[23:07:45] Server de Minecraft arriba. A partir de ahora, proxy transparente.
+[23:07:45] Jugadores online: 0. Inactivo hace 1s / 2s.
+[23:07:45] Jugadores online: 0. Inactivo hace 2s / 2s.
+[23:07:45] Server inactivo. Apagando server de Minecraft.
+[23:07:45] Esperando 1s más por si alguien reconecta antes de apagar Crafty...
+[23:07:45] Ciclo completo. Volviendo a esperar conexiones.
+[23:08:58] SIGHUP recibido: config hotswap recargada -> IDLE_LIMIT=999s, CRAFTY_IDLE=300s, CHECK_INTERVAL=20s, CRAFTY_LOG_LEVEL=WARNING
+[23:08:58] Hot-reload requires a TOML config file (config.toml). Migrate your configuration to enable this feature (fallback to env-vars does not support hotswap).
+[23:08:58] Crafty ya estaba corriendo.
+[23:08:58] Esperando a que el server de Minecraft responda...
+[23:08:58] Server de Minecraft arriba. A partir de ahora, proxy transparente.
+[23:08:58] Jugadores online: 0. Inactivo hace 1s / 2s.
+[23:08:58] Jugadores online: 0. Inactivo hace 2s / 2s.
+[23:08:58] Server inactivo. Apagando server de Minecraft.
+[23:08:58] Esperando 1s más por si alguien reconecta antes de apagar Crafty...
+[23:08:58] Ciclo completo. Volviendo a esperar conexiones.

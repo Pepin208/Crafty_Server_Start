@@ -73,7 +73,7 @@ class Config(BaseSettings):
         env_file=".env",
         env_file_encoding="utf-8",
         # We also read from TOML, but env vars have higher precedence natively in pydantic-settings
-        toml_file="config.toml",
+        toml_file=os.environ.get("CONFIG_FILE", "config.toml"),
     )
 
     @field_validator("CRAFTY_DIR", "LOG_FILE", "CRAFTY_LOG_FILE", mode="before")
@@ -134,14 +134,39 @@ def load_config() -> Config:
     """Loads configuration, respecting precedence: Init -> Env Vars -> TOML."""
     config = Config(**{})
 
+    # Check which config fields came from env vars
+    overridden_keys = [key for key in Config.model_fields.keys() if key in os.environ]
+
+    toml_path = os.environ.get("CONFIG_FILE", "config.toml")
+
+    # We will log after setting up the logger to avoid circular imports.
+    # We can store the info needed on the config object for now, or just import logger here.
+    # Wait, if we import logger here locally inside load_config, it's called at module level.
+    # So it still causes a circular import if logging_setup imports config.
+    # Let's import it locally inside the function and handle it gracefully.
+    try:
+        from mc_gateway.logging_setup import logger
+        if os.path.exists(toml_path):
+            logger.info(f"Config loaded: source=toml file={toml_path} (env var overrides applied: {overridden_keys})")
+        else:
+            logger.info(f"Config loaded: source=env (env vars applied: {overridden_keys})")
+    except ImportError:
+        pass
+
     # Warn if TOML file is world-readable
-    toml_path = "config.toml"
     if os.path.exists(toml_path):
         import stat
         st = os.stat(toml_path)
         if bool(st.st_mode & stat.S_IROTH):
-            print(f"WARNING: {toml_path} is world-readable and contains a secret token. "
-                  f"Run: chmod 600 {toml_path}")
+            try:
+                from mc_gateway.logging_setup import logger
+                logger.warning(
+                    f"WARNING: {toml_path} is world-readable and contains a secret token. "
+                    f"Run: chmod 600 {toml_path}"
+                )
+            except ImportError:
+                print(f"WARNING: {toml_path} is world-readable and contains a secret token. "
+                      f"Run: chmod 600 {toml_path}")
 
     # Validate that CRAFTY_DIR looks valid
     crafty_main = os.path.join(config.CRAFTY_DIR, "main.py")

@@ -7,14 +7,14 @@ from mc_gateway.logging_setup import logger
 def reload_hotswap_config(signum=None, frame=None) -> None:
     """
     SIGHUP Handler: reloads config fields that are marked for hotswapping.
-    It reads them from `config.toml`. If the user is on the old env-var
-    only setup without config.toml, we log a warning since we don't
+    It reads them from the configured toml file. If the user is on the old env-var
+    only setup without a toml file, we log a warning since we don't
     resort to bash sourcing hacks anymore.
     """
-    toml_path = "config.toml"
+    toml_path = os.environ.get("CONFIG_FILE", "config.toml")
     if not os.path.exists(toml_path):
         logger.warning(
-            "Hot-reload requires config.toml. Migrate your configuration "
+            f"Hot-reload requires a TOML config file ({toml_path}). Migrate your configuration "
             "to enable this feature (fallback to env-vars does not support hotswap)."
         )
         return
@@ -22,7 +22,7 @@ def reload_hotswap_config(signum=None, frame=None) -> None:
     try:
         new_config = load_config()
     except Exception as e:
-        logger.error(f"Error parseando config.toml en SIGHUP: {e}")
+        logger.error(f"Error parseando {toml_path} en SIGHUP: {e}")
         return
 
     # Update only the allowed hot-swappable fields
