@@ -1,5 +1,4 @@
 import os
-
 # Set default env vars before any imports so global config loading passes
 os.environ["CRAFTY_URL"] = "http://test"
 os.environ["CRAFTY_TOKEN"] = "token"
