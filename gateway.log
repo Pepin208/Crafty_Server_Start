@@ -40,3 +40,13 @@
 [18:51:50] Jugadores online: 0. Inactivo hace 30s / 150s.
 [18:52:20] Jugadores online: 0. Inactivo hace 60s / 150s.
 [18:52:50] Jugadores online: 0. Inactivo hace 90s / 150s.
+[22:42:53] SIGHUP recibido: config hotswap recargada -> IDLE_LIMIT=999s, CRAFTY_IDLE=300s, CHECK_INTERVAL=20s, CRAFTY_LOG_LEVEL=WARNING
+[22:42:53] Hot-reload requires config.toml. Migrate your configuration to enable this feature (fallback to env-vars does not support hotswap).
+[22:42:53] Crafty ya estaba corriendo.
+[22:42:53] Esperando a que el server de Minecraft responda...
+[22:42:53] Server de Minecraft arriba. A partir de ahora, proxy transparente.
+[22:42:53] Jugadores online: 0. Inactivo hace 1s / 2s.
+[22:42:53] Jugadores online: 0. Inactivo hace 2s / 2s.
+[22:42:53] Server inactivo. Apagando server de Minecraft.
+[22:42:53] Esperando 1s más por si alguien reconecta antes de apagar Crafty...
+[22:42:53] Ciclo completo. Volviendo a esperar conexiones.

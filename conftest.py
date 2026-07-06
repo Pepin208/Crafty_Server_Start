@@ -1,5 +1,4 @@
 import os
-import pytest
 
 # Set default env vars before any imports so global config loading passes
 os.environ["CRAFTY_URL"] = "http://test"
