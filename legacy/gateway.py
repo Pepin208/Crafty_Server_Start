@@ -1,3 +1,8 @@
+"""
+Legacy gateway script for reference.
+This is the pre-refactor monolithic implementation, kept for behavioral reference only.
+It is no longer maintained.
+"""
 #!/usr/bin/env python3
 """
 Gateway persistente para Minecraft con arranque/apagado on-demand.
@@ -19,7 +24,6 @@ import logging
 import os
 import signal
 import socket
-import struct
 import subprocess
 import threading
 import time
@@ -626,7 +630,7 @@ def handle_client(raw_sock, addr):
             trigger_wake()
             handle_login_kick(rsock)
         raw_sock.close()
-    except Exception as e:
+    except Exception:
         try:
             raw_sock.close()
         except Exception:
