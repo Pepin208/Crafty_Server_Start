@@ -6,9 +6,9 @@
 # CRAFTY: datos de conexión a la API del panel
 # ---------------------------------------------------------------
 export CRAFTY_URL="https://localhost:8443"
-export CRAFTY_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJpYXQiOjE3ODMxNDU1MzksInRva2VuX2lkIjoxfQ.76zHpaCPKbF_ZRNPUU9H5r2mqUHB6Es4jw9TpuHG1pA"
+export CRAFTY_TOKEN="CRAFTY_API_KEY"
 export SERVER_ID="a9f17c0f-8870-40b5-af3a-8947e8c759a2"
-export CRAFTY_DIR="$HOME/Escritorio/MC_Server/crafty-4"
+export CRAFTY_DIR="$HOME/Dir/to/crafty-4"
 
 # ---------------------------------------------------------------
 # PUERTOS: cuál mira internet y cuál usa Java internamente
@@ -56,7 +56,7 @@ export KICK_MENSAJE="Ya me levanto (esperá ~{startup_timeout_seg}s)..."
 # LOG: límite de tamaño del archivo gateway.log (evita el bugaso de 27GB)
 # ---------------------------------------------------------------
 # Ruta del archivo de log. Por defecto: gateway.log al lado de gateway.py
-export LOG_FILE="$HOME/Escritorio/MC_Server/autostart/gateway.log"
+export LOG_FILE="$HOME/Dir/a/tu/server/gateway.log"
 
 # Tamaño máximo de CADA archivo de log antes de rotar. Podés escribirlo
 # como bytes planos (ej: 10485760) o con unidad: "10 MB", "1024KB", "1GB".
@@ -86,7 +86,7 @@ export LOG_SUPPRESS_WINDOW_SECONDS=60
 # limite y podia crecer varios GB. Ahora rota igual que gateway.log.
 # ---------------------------------------------------------------
 # Ruta del archivo de log de Crafty.
-export CRAFTY_LOG_FILE="$HOME/Escritorio/MC_Server/autostart/crafty.log"
+export CRAFTY_LOG_FILE="$HOME/Dir/a/tu/server/autostart/crafty.log"
 
 # Tamano maximo de CADA archivo antes de rotar. Podes escribirlo como
 # bytes planos (ej: 20971520) o con unidad: "20 MB", "1024 KB", "1 GB".
